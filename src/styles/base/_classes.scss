@@ -1,0 +1,83 @@
+/*
+|--------------------------------------------
+| Общие классы
+|--------------------------------------------
+*/
+
+.text{
+	&-center{
+		text-align: center;
+	}
+	&-right{
+		text-align: right;
+	}
+	&-nowrap{
+		white-space: nowrap;
+	}
+	&-danger{
+		color: $danger-color;
+	}
+	&-success{
+		color: $success-color;
+	}
+	&-warning{
+		color: $warning-color;
+	}
+	&-info{
+		color: $info-color;
+	}
+}
+
+.bg{
+	&-danger{
+		background-color: $danger-color;
+	}
+	&-success{
+		background-color: $success-color;
+	}
+	&-warning{
+		background-color: $warning-color;
+	}
+	&-info{
+		background-color: $info-color;
+	}
+}
+
+.alert{
+	border: 1px solid $lc;
+	border-radius: $brs;
+	padding: 10px;
+	margin: 10px 0;
+	&-danger{
+		background-color: $danger-color;
+	}
+	&-success{
+		background-color: $success-color;
+	}
+	&-warning{
+		background-color: $warning-color;
+	}
+	&-info{
+		background-color: $info-color;
+	}
+}
+
+.clearfix{
+	&:after{
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+
+.list{
+	&-unstyled{
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+}
+
+.overlay{
+	@include overlay;
+}

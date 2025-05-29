@@ -1,0 +1,16 @@
+/*
+|--------------------------------------------
+| Стили всплывающих окон
+|--------------------------------------------
+*/
+
+.modal{
+	display: none;
+	height: auto;
+	width: 580px;
+	max-width: calc(100% - 20px);
+	max-height: calc(100% - 30px);
+	padding: 2rem;
+	border-radius: $brs;
+	text-align: center;
+}

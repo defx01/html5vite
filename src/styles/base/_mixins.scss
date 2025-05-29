@@ -1,0 +1,23 @@
+/*
+|--------------------------------------------
+| Миксины
+|--------------------------------------------
+*/
+
+// Стилизация input placeholder
+@mixin placeholder($color: lightgray, $weight: normal){
+	&::-webkit-input-placeholder { color: $color; font-weight: $weight; }
+	&::-moz-placeholder          { color: $color; font-weight: $weight; }
+	&:-moz-placeholder           { color: $color; font-weight: $weight; }
+	&:-ms-input-placeholder      { color: $color; font-weight: $weight; }
+}
+
+// Заполнитель
+@mixin overlay($color: black, $opacity: 0.3){
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba($color, $opacity);
+}
