@@ -17,10 +17,6 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'glightbox/dist/css/glightbox.css';
 import GLightbox from 'glightbox';
 
-/*/ https://splidejs.com/guides/options/
-import '@splidejs/splide/css';
-import Splide from "@splidejs/splide"; */
-
 // https://ganlanyuan.github.io/tiny-slider
 import 'tiny-slider/dist/tiny-slider.css';
 import { tns } from "tiny-slider";
@@ -32,7 +28,7 @@ import { tns } from "tiny-slider";
 | -------------------------------
 */
 
-import '../styles/main.scss';
+import './styles/main.scss';
 
 /*
 | -------------------------------
@@ -62,4 +58,4 @@ document.addEventListener('DOMContentLoaded', () => {
 | -------------------------------
 */
 
-import './scripts';
+import './js/scripts';

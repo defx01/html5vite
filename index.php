@@ -1,14 +1,8 @@
-<!doctype html>
-<html lang="ru">
-<head>
-    <?php include 'public/partials/head.php'; ?>
-</head>
-<body>
-    <?php /* include 'public/partials/preloader.php'; */ ?>
+<?php include 'partials/page_start.php'; ?>
 
-    <?php include 'public/partials/header.php'; ?>
+        <!-- base js cant be included -->
+        <script src="./main.js" type="module"></script>
     
-    <main> <!-- main -->
         <section style="">
             <div class="container">
                 <h2>Icons</h2>
@@ -59,12 +53,5 @@
                 <?php endfor; ?>
             </div>
         </section>
-    </main> <!-- /main -->
 
-    <?php include 'public/partials/footer.php'; ?>
-    
-    <?php include 'public/partials/modals.php'; ?>
-
-    <script src="/src/js/main.js" type="module"></script>
-</body>
-</html>
+<?php include 'partials/page_end.php'; ?>

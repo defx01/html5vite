@@ -1,0 +1,52 @@
+/*
+|--------------------------------------------
+| Cookie
+|--------------------------------------------
+*/
+
+.cookie-block{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 5px;
+	background: #fff;
+	box-shadow: $shadow-light;
+	text-align: center;
+	font-size: 15px;
+	color: $text-color;
+	z-index: 100;
+	display: none;
+	span{
+		margin: 0 5px;
+	}
+	a{
+		white-space: nowrap;
+		color: blue;
+		&:hover{
+			color: red;
+		}
+	}
+	button{
+		border: 1px solid lightgray;
+		cursor: pointer;
+		&:hover{
+			background: #333;
+			color: #fff;
+		}
+	}
+}
+
+@media screen and (max-width: 575px){
+	.cookie-block{
+		font-size: 14px;
+		span{
+			display: block;
+			margin: 0;
+		}
+		button{
+			width: 100px;
+			margin-top: 6px;
+		}
+	}
+}

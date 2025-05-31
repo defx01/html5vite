@@ -16,8 +16,8 @@
 			height: 40px;
 			line-height: 40px;
 			padding: 0 15px;
-			border: 1px solid $tc;
-			@include placeholder(rgba($tc,.7));
+			border: 1px solid $text-color;
+			@include placeholder(rgba($text-color,.7));
 
 			&.textarea{
 				line-height: 1.2;

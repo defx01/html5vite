@@ -1,6 +1,7 @@
 {
   "author": "defx01",
   "name": "html5vite",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,7 +15,8 @@
     "vite": "^6.3.5",
     "vite-plugin-image-optimizer": "^1.1.8",
     "vite-plugin-php": "^2.0.3",
-    "vite-plugin-sass-glob-import": "^5.0.0"
+    "vite-plugin-sass-glob-import": "^5.0.0",
+    "vite-plugin-static-copy": "^3.0.0"
   },
   "dependencies": {
     "bootstrap-grid": "^3.0.1",
